@@ -1,0 +1,17 @@
+# Predicting churn
+- Churn is also known as customer turnover. It represents the rate at which customers stop doing business with a company. Businesses often use customer churn analysis and prediction to identify the risk of customers cancelling their subscriptions and implement strategies to reduce them. This can involve improving customer service, offering incentives or discounts, personalizing marketing efforts, or addressing specific pain points that lead to customer dissatisfaction.
+-This file offers a demonstartion of a question posted at Lux Tech academy data science bootcamp.
+- "Imagine you're working with Sprint, one of the biggest telecom companies in the USA. They're really keen on figuring out how many customers might decide to leave them in the coming months. Luckily, they've got a bunch of past data about when customers have left before, as well as info about who these customers are, what they've bought, and other things like that.
+
+So, if you were in charge of predicting customer churn how would you go about using machine learning to make a good guess about which customers might leave? Like, what steps would you take to create a machine learning model that can predict if someone's going to leave or not?"
+
+- In order to guess which customers might leave in the near future, I'd create a machine learning model to predict such occurences. 
+# 1. Prepare the Data
+- The sprint company has got past records of when customers left as well as info of who they were. This includes : 1.Billing information 2. customer demographics and any other relevant features. Resolving any formatting problems is the first thing.
+Data comes from different sources and sometimes the format isn't matching. Transform and aggregate where necessary using ETL methods.
+- After acquiring the data, I'll proceed to cleaning it by basically identifying any missing values. If the dataset is large, it'll be okay to drop down the missing rows. However, if I want acurate results,
+- then taking the mean value of particular columns and fill the empty respective rows with the mean values.
+- Variable encoding is also  necessary sometimes, where categorical variables are transformed to numerical.
+- Further cleaning by splitting the data into training and testing sets.
+# 2. Data exploration and Analysis
+
